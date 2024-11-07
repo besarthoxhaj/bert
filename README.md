@@ -1,6 +1,10 @@
 # BERT
 
 
+Bidirectional encoder representations from transformers (BERT)
+is a language model introduced in October 2018.
+
+
 ```py
 #
 #
@@ -45,3 +49,9 @@ class Bert(torch.nn.Module):
     x = self.sft(x)
     return x
 ```
+
+
+## Sponsors
+
+
+![MLX](https://hermes.mlx.institute/github.bert)
